@@ -1,0 +1,8 @@
+CREATE DATABASE Bt3;
+USE Bt3;
+CREATE TABLE Product (
+    ProductID INT PRIMARY KEY,
+    ProductName VARCHAR(50) NOT NULL,
+    Price DECIMAL(20, 5) NOT NULL,
+    Quantity INT
+);
